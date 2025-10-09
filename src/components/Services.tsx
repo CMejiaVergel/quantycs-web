@@ -10,18 +10,18 @@ const services = [
   {
     icon: Gauge,
     title: "STO 360 - Plan Maestro + War Room",
-    description: "Plataforma de orquestación de paradas con planificación PdM/APM, backlog y seguimiento en tiempo real. War Room con dashboards de avance, riesgos y restricciones.",
+    description: "Servicio de orquestación de paradas y War Room con dashboards de datos clave para la ejecución de las actividades.",
     gradient: "from-primary to-accent",
     features: [
       "Reducción 15-25% duración de parada",
-      "Decisiones basadas en criticidad",
-      "Playbooks ISO 14224/55000"
+      "Decisiones estratégicas basadas en datos",
+      "Anticipación con datos desde el momento zero"
     ]
   },
   {
     icon: TruckIcon,
-    title: "SupplySync - Torre 5PL + VMI",
-    description: "Control Tower logística con ETA en tiempo real, integración puerto/aduana. VMI de MRO críticos sincronizado con plan maestro por criticidad.",
+    title: "SupplySync - Control Tower Logística 5PL",
+    description: "Mediante el uso de modelos de Big Data e Inteligencia Artificial analiza las tendencias del mercado y predice con precisión las necesidades futuras de bienes y suministros, permitiendo una gestión de inventario más eficiente y una respuesta ágil a los cambios del mercado.",
     gradient: "from-accent to-secondary",
     features: [
       "Lead time críticos -30-50%",
