@@ -19,17 +19,6 @@ const services = [
     ]
   },
   {
-    icon: Shield,
-    title: "HSEQ Gate - Permisos & LOTO Digital",
-    description: "Workflow móvil de permisos y etiquetado LOTO con trazabilidad blockchain. Métricas líderes/rezagadas en tiempo real y Digital Passport para personal.",
-    gradient: "from-secondary to-primary",
-    features: [
-      "Cero incidentes de seguridad",
-      "100% permisos trazables",
-      "Validación automática HSEQ"
-    ]
-  },
-  {
     icon: TruckIcon,
     title: "SupplySync - Torre 5PL + VMI",
     description: "Control Tower logística con ETA en tiempo real, integración puerto/aduana. VMI de MRO críticos sincronizado con plan maestro por criticidad.",
@@ -41,14 +30,14 @@ const services = [
     ]
   },
   {
-    icon: Radar,
-    title: "ScopeX - Inspección Autónoma NDT",
-    description: "Drones y robots para inspección NDT/UT/visual en espacios confinados. Gemelo visual 3D con hallazgos y recomendaciones de alcance en 24-48h.",
-    gradient: "from-primary to-secondary",
+    icon: Shield,
+    title: "HSEQ Gate - Permisos & LOTO Digital",
+    description: "Workflow móvil de permisos y etiquetado LOTO con trazabilidad blockchain. Métricas líderes/rezagadas en tiempo real y Digital Passport para personal.",
+    gradient: "from-secondary to-primary",
     features: [
-      "Definición exacta de alcance",
-      "Evita trabajos innecesarios",
-      "Integración con CMMS/EAM"
+      "Cero incidentes de seguridad",
+      "100% permisos trazables",
+      "Validación automática HSEQ"
     ]
   },
   {
@@ -60,6 +49,17 @@ const services = [
       "Coordinación de agendas",
       "Skills certificadas visibles",
       "Simbiosis industrial"
+    ]
+  },
+  {
+    icon: Radar,
+    title: "ScopeX - Inspección Autónoma NDT",
+    description: "Drones y robots para inspección NDT/UT/visual en espacios confinados. Gemelo visual 3D con hallazgos y recomendaciones de alcance en 24-48h.",
+    gradient: "from-primary to-secondary",
+    features: [
+      "Definición exacta de alcance",
+      "Evita trabajos innecesarios",
+      "Integración con CMMS/EAM"
     ]
   }
 ];
@@ -76,7 +76,7 @@ const Services = () => {
               Servicios <span className="bg-gradient-primary bg-clip-text text-transparent">Integrados</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Solución end-to-end que integra todos los aspectos críticos de las paradas de planta
+              Solución end-to-end que integra todos los aspectos críticos de las paradas de planta, mantenimientos y cualquier actividad en campo
             </p>
           </div>
 
