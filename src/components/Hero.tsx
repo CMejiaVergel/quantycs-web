@@ -5,10 +5,9 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-background">
-        <div className="absolute inset-0 bg-gradient-primary opacity-20 animate-pulse-glow" />
-        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/20 rounded-full blur-[120px]" />
-        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-secondary/20 rounded-full blur-[120px]" />
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-card">
+        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/10 rounded-full blur-[120px]" />
+        <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-secondary/10 rounded-full blur-[120px]" />
       </div>
 
       {/* Content */}
@@ -25,7 +24,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Plataforma de gemelos digitales que integra predicción, ejecución y control 
+            Solución mediante gemelos digitales que integra predicción, ejecución y control 
             en tiempo real para transformar sus operaciones industriales
           </p>
 
@@ -53,7 +52,7 @@ const Hero = () => {
                 0
               </div>
               <div className="text-sm text-muted-foreground mt-2">
-                Incidentes HSEQ
+                Accidentes HSEQ
               </div>
             </div>
             <div className="text-center">
