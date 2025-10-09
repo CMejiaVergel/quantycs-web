@@ -12,8 +12,8 @@ const Solution = () => {
               La Solución <span className="bg-gradient-primary bg-clip-text text-transparent">Quantycs</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Plataforma no-code de gemelos digitales que representa el inventario completo de activos 
-              físicos y no físicos, siguiendo normativas ISO 14224 y 55000
+              Plataforma no-code que representa el inventario de activos físicos en forma de Gemelo Digital 
+              como lo define la normativa ISO/IEC 30173:2023
             </p>
           </div>
 
@@ -52,9 +52,9 @@ const Solution = () => {
           <div className="bg-gradient-to-br from-card/90 to-background/90 backdrop-blur-sm p-10 rounded-3xl border border-border/50">
             <h3 className="text-2xl font-bold mb-6 text-center">Tecnología DPP - Digital Passport Product</h3>
             <p className="text-muted-foreground text-center max-w-4xl mx-auto leading-relaxed mb-6">
-              Sistema de identificación mediante tarjetas/placas con blockchain que permite a cada equipo y máquina 
+              Sistema de identificación única mediante placas NFC con blockchain que permite a cada equipo y máquina 
               tener su gemelo digital. Los trabajadores escanean el DPP para confirmar inicio de actividades, 
-              gestionar etiquetado LOTO, anexar documentación y validar permisos HSEQ en tiempo real.
+              gestionar etiquetado LOTO, y tener una trazabilidad de cualquier evento relacionado a los activos.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mt-8">
               <div className="flex items-start gap-3">
