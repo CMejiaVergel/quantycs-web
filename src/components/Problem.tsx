@@ -23,7 +23,7 @@ const Problem = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2" />
-                  <span>Altos costos por falta de anticipación en la demanda</span>
+                  <span>Altos costos por falta de anticipación en la demanda de bienes y servicios</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2" />
@@ -31,7 +31,7 @@ const Problem = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2" />
-                  <span>Alta complejidad operativa y costos elevados</span>
+                  <span>Alta complejidad en la gestión operativa y costos elevados</span>
                 </li>
               </ul>
             </div>
@@ -69,11 +69,11 @@ const Problem = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-accent rounded-full mt-2" />
-                  <span>Anticipación de demanda basada en datos</span>
+                  <span>Anticipación de demanda de bienes y servicios basada en datos</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-1.5 h-1.5 bg-accent rounded-full mt-2" />
-                  <span>Simbiosis industrial y economía circular</span>
+                  <span>Simbiosis industrial</span>
                 </li>
               </ul>
             </div>
