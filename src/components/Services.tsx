@@ -15,7 +15,7 @@ const services = [
     features: [
       "Reducción 15-25% duración de parada",
       "Decisiones estratégicas basadas en datos",
-      "Anticipación con datos desde el momento zero"
+      "Anticipación de demanda de servicios"
     ]
   },
   {
@@ -26,13 +26,13 @@ const services = [
     features: [
       "Lead time críticos -30-50%",
       "Urgencias -30-40%",
-      "OTD proveedores +15-25%"
+      "Disponibilidad Bienes >90%"
     ]
   },
   {
     icon: Shield,
-    title: "HSEQ Gate - Permisos & LOTO Digital",
-    description: "Workflow móvil de permisos y etiquetado LOTO con trazabilidad blockchain. Métricas líderes/rezagadas en tiempo real y Digital Passport para personal.",
+    title: "HSEQ Gate - Digital Passport Product (DPP)",
+    description: "Workflow móvil de permisos y etiquetado LOTO con trazabilidad blockchain mediante DPP.",
     gradient: "from-secondary to-primary",
     features: [
       "Cero incidentes de seguridad",
@@ -42,8 +42,8 @@ const services = [
   },
   {
     icon: Network,
-    title: "PQP Orchestrator - Data Trust",
-    description: "Hub del clúster con data-sharing ISO 27001. Calendario interempresa, bolsa de talento certificada y repositorio de lecciones aprendidas.",
+    title: "PQP Data Trust",
+    description: "Hub del Clúster con data-sharing en base a la ISO 27001 para generación de calendario interempresa, bolsa de talento certificada y repositorio de crecimiento.",
     gradient: "from-secondary to-accent",
     features: [
       "Coordinación de agendas",
@@ -53,13 +53,13 @@ const services = [
   },
   {
     icon: Radar,
-    title: "ScopeX - Inspección Autónoma NDT",
-    description: "Drones y robots para inspección NDT/UT/visual en espacios confinados. Gemelo visual 3D con hallazgos y recomendaciones de alcance en 24-48h.",
+    title: "ScopeX - Inspección por Visión Computacional",
+    description: "Drones y Robots autónomos para realizar inspecciones periodicas y obtener datos de seguridad, seguimiento de actividades y estado de equipos mediante visión computacional en tiempo real",
     gradient: "from-primary to-secondary",
     features: [
-      "Definición exacta de alcance",
-      "Evita trabajos innecesarios",
-      "Integración con CMMS/EAM"
+      "Seguimiento de actividades",
+      "Genera alertas críticas de seguridad",
+      "Conocer condiciones del terreno/equipos"
     ]
   }
 ];
