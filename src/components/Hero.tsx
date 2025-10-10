@@ -20,7 +20,7 @@ const Hero = () => {
           />
           
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent leading-tight">
-            Orquestación Inteligente de Paradas de Planta
+            Orquestación Inteligente de Plantas Industriales
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
@@ -52,7 +52,7 @@ const Hero = () => {
                 0
               </div>
               <div className="text-sm text-muted-foreground mt-2">
-                Accidentes HSEQ
+                Incidentes HSEQ
               </div>
             </div>
             <div className="text-center">
