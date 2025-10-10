@@ -16,17 +16,14 @@ const Hero = () => {
           <img 
             src={logoQuantycs} 
             alt="Quantycs" 
-            className="h-20 md:h-28 mx-auto mb-8 opacity-90"
+            className="h-32 md:h-48 mx-auto mb-4 opacity-90"
           />
           
-          <h1 className="text-5xl md:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent leading-tight">
-            Orquestación Inteligente de Plantas Industriales
+          <h1 className="font-exo2 text-3xl md:text-5xl font-bold text-foreground tracking-wider leading-tight">
+            SOLUCIONES INTELIGENTES PARA<br/>INDUSTRIA 4.0
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Solución mediante gemelos digitales que integra predicción, ejecución y control 
-            en tiempo real para transformar sus operaciones industriales
-          </p>
+          <div className="h-1 w-full max-w-2xl mx-auto bg-gradient-primary" />
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <a 
