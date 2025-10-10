@@ -81,7 +81,7 @@ const Contact = () => {
           {/* CTA Footer */}
           <div className="mt-12 text-center bg-gradient-to-r from-primary/20 to-secondary/20 p-8 rounded-2xl border border-primary/30">
             <p className="text-2xl font-bold mb-2">
-              Reducción comprobada de 15-25% en tiempos de parada
+              Simplifica operaciones logísticas complejas con tecnologías de última generación
             </p>
             <p className="text-muted-foreground">
               Con cero incidentes de seguridad y optimización total de la cadena de suministro
