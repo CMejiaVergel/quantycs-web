@@ -83,7 +83,7 @@ const Team = () => {
                 <img src={logoVoltac} alt="VOLTAC SYSTEMS" className="h-12 opacity-90" />
                 <div>
                   <p className="font-semibold">VOLTAC SYSTEMS</p>
-                  <p className="text-sm text-muted-foreground">Gemelos Digitales & Automatización</p>
+                  <p className="text-sm text-muted-foreground">Transformación Digital - Industria 4.0</p>
                 </div>
               </div>
               <div className="hidden md:block w-px h-16 bg-border" />
@@ -91,7 +91,7 @@ const Team = () => {
                 <img src={logoPdi} alt="PDI ADVANCED" className="h-12 opacity-90" />
                 <div>
                   <p className="font-semibold">PDI ADVANCED</p>
-                  <p className="text-sm text-muted-foreground">IA & Ciberseguridad Industrial</p>
+                  <p className="text-sm text-muted-foreground">Desarrollo IA - Soluciones de ingeniería</p>
                 </div>
               </div>
             </div>
