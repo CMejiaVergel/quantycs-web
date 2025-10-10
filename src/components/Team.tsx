@@ -1,6 +1,8 @@
-import { Users } from "lucide-react";
 import logoVoltac from "@/assets/logo-voltac.png";
 import logoPdi from "@/assets/logo-pdi.png";
+import carlosMejia from "@/assets/carlos-mejia.png";
+import sergioSanchez from "@/assets/sergio-sanchez.png";
+import luisAcosta from "@/assets/luis-acosta.png";
 
 const team = [
   {
@@ -8,21 +10,24 @@ const team = [
     role: "CEO VOLTAC SYSTEMS",
     expertise: "Ingeniero Electrónico",
     specialization: "Automatización y Control, Procesos Industriales",
-    highlight: "Experto en implementación de gemelos digitales en la industria del petróleo y gas"
+    highlight: "Experto en implementación de soluciones digitales en la industria",
+    image: carlosMejia
   },
   {
     name: "Sergio Sánchez",
     role: "CTO PDI ADVANCED",
     expertise: "PhD. Ingeniería",
     specialization: "IA, Machine Learning, Deep Learning",
-    highlight: "Investigador y líder de grupo científico con 10 años de experiencia"
+    highlight: "Investigador y líder científico de desarrollos tecnológicos",
+    image: sergioSanchez
   },
   {
     name: "Luis Acosta",
     role: "CEO PDI ADVANCED",
     expertise: "MSc. Ingeniería",
     specialization: "Control Automático, Gestión Industrial",
-    highlight: "Experto en automatización y ciberseguridad industrial"
+    highlight: "Experto en implementación de proyectos de mantenimiento, automatización y ciberseguridad industrial",
+    image: luisAcosta
   }
 ];
 
@@ -48,8 +53,12 @@ const Team = () => {
                 key={index}
                 className="bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border/50 hover:border-primary/50 transition-all group"
               >
-                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform">
-                  <Users className="w-8 h-8 text-white" />
+                <div className="w-32 h-32 rounded-full overflow-hidden mb-6 mx-auto border-4 border-primary/20 group-hover:border-primary/50 transition-all">
+                  <img 
+                    src={member.image} 
+                    alt={member.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 
                 <h3 className="text-xl font-bold text-center mb-1">{member.name}</h3>
