@@ -11,27 +11,27 @@ const Partners = () => {
           <h3 className="text-2xl font-bold text-center mb-12 text-muted-foreground">
             Desarrollado con el acompañamiento de
           </h3>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
-            <img 
-              src={logoEconova} 
-              alt="Red Econova" 
-              className="h-20 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+            <img
+              src={logoEconova}
+              alt="Red Econova"
+              className="h-5 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
-            <img 
-              src={logoGim} 
-              alt="GIM Institute" 
+            <img
+              src={logoGim}
+              alt="GIM Institute"
               className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
-            <img 
-              src={logoCluster} 
-              alt="Cluster PQP e IXL Center" 
+            <img
+              src={logoCluster}
+              alt="Cluster PQP e IXL Center"
               className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
-            <img 
-              src={logoCamara} 
-              alt="Cámara de Comercio de Cartagena" 
-              className="h-20 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+            <img
+              src={logoCamara}
+              alt="Cámara de Comercio de Cartagena"
+              className="h-5 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
           </div>
         </div>
