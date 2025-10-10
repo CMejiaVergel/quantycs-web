@@ -16,7 +16,7 @@ const Partners = () => {
             <img 
               src={logoEconova} 
               alt="Red Econova" 
-              className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              className="h-20 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
             <img 
               src={logoGim} 
@@ -31,7 +31,7 @@ const Partners = () => {
             <img 
               src={logoCamara} 
               alt="Cámara de Comercio de Cartagena" 
-              className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              className="h-20 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
           </div>
         </div>
