@@ -11,22 +11,22 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 py-20 text-center">
-        <div className="max-w-5xl mx-auto space-y-8 animate-fade-in-up">
+      <div className="relative z-10 container mx-auto px-6 py-12 text-center">
+        <div className="max-w-5xl mx-auto space-y-6 animate-fade-in-up">
           <img 
             src={logoQuantycs} 
             alt="Quantycs" 
-            className="w-full max-w-2xl mx-auto mb-6 opacity-90"
+            className="w-full max-w-xl mx-auto mb-4 opacity-90"
           />
           
-          <div className="h-1 w-full max-w-2xl mx-auto bg-gradient-primary mb-6" />
+          <div className="h-1 w-full max-w-xl mx-auto bg-gradient-primary mb-4" />
           
-          <h1 className="font-exo2 text-3xl md:text-5xl font-bold text-foreground tracking-wider leading-tight">
+          <h1 className="font-exo2 text-2xl md:text-4xl font-bold text-foreground tracking-wider leading-tight">
             SOLUCIONES INTELIGENTES PARA<br/>INDUSTRIA 4.0
           </h1>
 
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <a 
               href="#solution" 
               className="group inline-flex items-center gap-2 px-8 py-4 bg-gradient-primary text-white rounded-lg font-semibold text-lg hover:scale-105 transition-transform"
@@ -36,7 +36,7 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 pt-16 max-w-3xl mx-auto">
+          <div className="grid grid-cols-3 gap-8 pt-8 max-w-3xl mx-auto">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent">
                 15-25%
