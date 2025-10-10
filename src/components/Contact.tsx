@@ -36,8 +36,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Teléfono</h3>
-                  <a href="tel:+573001234567" className="text-muted-foreground hover:text-primary transition-colors">
-                    +57 300 123 4567
+                  <a href="tel:+573137297257" className="text-muted-foreground hover:text-primary transition-colors">
+                    +57 313 729 7257
                   </a>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Contact = () => {
 
             <div className="mt-10 pt-8 border-t border-border/50 text-center">
               <p className="text-lg mb-4 font-semibold">
-                ¿Listo para optimizar sus paradas de planta?
+                ¿Listo para oprimizar su industria a través de la digitalización?
               </p>
               <p className="text-muted-foreground">
                 Contáctenos hoy y descubra cómo Quantycs puede revolucionar sus operaciones 
