@@ -16,12 +16,12 @@ const Partners = () => {
             <img
               src={logoEconova}
               alt="Red Econova"
-              className="h-15 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              className="h-12 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
             <img
               src={logoGim}
               alt="GIM Institute"
-              className="h-15 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
             <img
               src={logoCluster}
