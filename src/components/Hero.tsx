@@ -16,7 +16,7 @@ const Hero = () => {
           <img 
             src={logoQuantycs} 
             alt="Quantycs" 
-            className="h-40 md:h-64 mx-auto mb-6 opacity-90"
+            className="w-full max-w-2xl mx-auto mb-6 opacity-90"
           />
           
           <div className="h-1 w-full max-w-2xl mx-auto bg-gradient-primary mb-6" />
