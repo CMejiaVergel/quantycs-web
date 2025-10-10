@@ -7,7 +7,7 @@ const impacts = [
     metrics: [
       { label: "Duración de paradas", value: "-15-25%" },
       { label: "Lead time críticos", value: "-30-50%" },
-      { label: "MTTR", value: "-20%" }
+      { label: "Tiempo Medio de Reparación", value: "-20%" }
     ],
     gradient: "from-primary to-accent"
   },
@@ -96,13 +96,13 @@ const Impact = () => {
               <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
                 360°
               </div>
-              <p className="text-muted-foreground">Visibilidad completa de operaciones</p>
+              <p className="text-muted-foreground">Monitoreo completo de operaciones</p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold bg-gradient-secondary bg-clip-text text-transparent mb-2">
-                24/7
+                100%
               </div>
-              <p className="text-muted-foreground">Monitoreo en tiempo real</p>
+              <p className="text-muted-foreground">Integración de tecnologías de última generación</p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
