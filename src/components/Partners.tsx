@@ -14,9 +14,9 @@ const Partners = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
             <img
-              src={logoEconova}
-              alt="Red Econova"
-              className="h-5 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              src={logoCluster}
+              alt="IXL Center"
+              className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
             <img
               src={logoGim}
@@ -24,9 +24,9 @@ const Partners = () => {
               className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
             <img
-              src={logoCluster}
-              alt="Cluster PQP e IXL Center"
-              className="h-16 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              src={logoEconova}
+              alt="IXL Center"
+              className="h-20 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
             <img
               src={logoCamara}
