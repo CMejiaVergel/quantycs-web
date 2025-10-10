@@ -3,7 +3,8 @@ import {
   Shield, 
   TruckIcon, 
   Radar, 
-  Network 
+  Network,
+  Brain 
 } from "lucide-react";
 
 const services = [
@@ -60,6 +61,17 @@ const services = [
       "Seguimiento de actividades",
       "Genera alertas críticas de seguridad",
       "Conocer condiciones del terreno/equipos"
+    ]
+  },
+  {
+    icon: Brain,
+    title: "QuantycsAI - Asistente Inteligente",
+    description: "Asistente de IA conversacional que permite consultar información de procesos, inventarios, equipos y permisos usando lenguaje natural. Con control de acceso basado en roles para garantizar la seguridad de la información.",
+    gradient: "from-accent to-primary",
+    features: [
+      "Búsqueda en lenguaje natural",
+      "Control de acceso por roles",
+      "Respuestas contextuales inteligentes"
     ]
   }
 ];
