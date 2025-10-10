@@ -12,8 +12,7 @@ const Solution = () => {
               La Solución <span className="bg-gradient-primary bg-clip-text text-transparent">Quantycs</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Plataforma no-code que representa el inventario de activos físicos en forma de Gemelo Digital 
-              como lo define la normativa ISO/IEC 30173:2023
+              Plataforma no-code escalable que integra tecnología de Gemelos Digitales para gestionar de manera inteligente los activos físicos mediante Analítica de Datos e Inteligencia Artificial.
             </p>
           </div>
 
