@@ -31,7 +31,7 @@ const Partners = () => {
             <img
               src={logoCamara}
               alt="Cámara de Comercio de Cartagena"
-              className="h-5 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              className="h-25 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
             />
           </div>
         </div>
