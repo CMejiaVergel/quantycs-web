@@ -16,14 +16,15 @@ const Hero = () => {
           <img 
             src={logoQuantycs} 
             alt="Quantycs" 
-            className="h-32 md:h-48 mx-auto mb-4 opacity-90"
+            className="h-40 md:h-64 mx-auto mb-6 opacity-90"
           />
+          
+          <div className="h-1 w-full max-w-2xl mx-auto bg-gradient-primary mb-6" />
           
           <h1 className="font-exo2 text-3xl md:text-5xl font-bold text-foreground tracking-wider leading-tight">
             SOLUCIONES INTELIGENTES PARA<br/>INDUSTRIA 4.0
           </h1>
-          
-          <div className="h-1 w-full max-w-2xl mx-auto bg-gradient-primary" />
+
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <a 
