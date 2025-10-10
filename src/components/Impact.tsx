@@ -102,7 +102,7 @@ const Impact = () => {
               <div className="text-5xl font-bold bg-gradient-secondary bg-clip-text text-transparent mb-2">
                 100%
               </div>
-              <p className="text-muted-foreground">Integración de tecnologías de última generación</p>
+              <p className="text-muted-foreground">Digitalización Industria 4.0</p>
             </div>
             <div className="text-center">
               <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
