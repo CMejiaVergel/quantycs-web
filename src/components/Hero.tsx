@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Más que un software, somos la orquesta que transforma la planeación operativa en una sinfonía sincronizada. Anticipamos, orquestamos e impulsamos la sostenibilidad del Cluster Petroquímico de Cartagena.
+            Más que un software, somos la orquesta que transforma la planeación operativa en una sinfonía sincronizada. Anticipamos, orquestamos e impulsamos la sostenibilidad de tu cluster industrial.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-6">
@@ -58,26 +58,26 @@ const Hero = () => {
           <div className="grid grid-cols-3 gap-6 pt-12 max-w-4xl mx-auto">
             <div className="bg-gradient-card backdrop-blur-sm border border-border/50 rounded-xl p-6 hover:border-primary/30 transition-all">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-                15-25%
+                12-20%
               </div>
               <div className="text-sm text-muted-foreground">
-                Reducción en tiempo de paradas
+                Reducción de tiempos de inactividad
               </div>
             </div>
             <div className="bg-gradient-card backdrop-blur-sm border border-border/50 rounded-xl p-6 hover:border-secondary/30 transition-all">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-secondary bg-clip-text text-transparent mb-2">
-                0
+                8-15%
               </div>
               <div className="text-sm text-muted-foreground">
-                Incidentes HSEQ objetivo
+                Optimización de cadena de suministro
               </div>
             </div>
             <div className="bg-gradient-card backdrop-blur-sm border border-border/50 rounded-xl p-6 hover:border-primary/30 transition-all">
               <div className="text-3xl md:text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
-                30-40%
+                +20%
               </div>
               <div className="text-sm text-muted-foreground">
-                Reducción en urgencias logísticas
+                Eficiencia en circularidad
               </div>
             </div>
           </div>

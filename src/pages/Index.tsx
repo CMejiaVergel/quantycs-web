@@ -1,35 +1,31 @@
+import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
 import Services from "@/components/Services";
+import AdvancedTech from "@/components/AdvancedTech";
 import Impact from "@/components/Impact";
 import Team from "@/components/Team";
 import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Hero />
+      <Navbar />
+      <div id="hero">
+        <Hero />
+      </div>
       <Problem />
       <Solution />
       <Services />
+      <AdvancedTech />
       <Impact />
       <Team />
       <Partners />
       <Contact />
-      
-      {/* Footer */}
-      <footer className="bg-card/30 backdrop-blur-sm border-t border-border/50 py-8">
-        <div className="container mx-auto px-6 text-center text-muted-foreground">
-          <p className="text-sm">
-            © 2025 Quantycs. Hub de soluciones de Transformación Digital para la Industria.
-          </p>
-          <p className="text-xs mt-2">
-            Desarrollado por VOLTAC SYSTEMS y PDI ADVANCED
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };

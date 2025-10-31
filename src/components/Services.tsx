@@ -12,72 +12,72 @@ const services = [
     icon: Gauge,
     title: "STO360",
     subtitle: "Plan Maestro + Orchestrator",
-    description: "Orquestación de paradas con War Room en tiempo real que consolida alertas, estima fechas de terminación y genera recomendaciones inteligentes.",
+    description: "Integra la planeación existente de cada organización, la potencia mediante modelos predictivos y la orquesta en tiempo real para generar decisiones coordinadas.",
     gradient: "from-primary to-accent",
     features: [
-      "Reducción 15-25% duración",
-      "Alertas consolidadas tiempo real",
-      "Recomendaciones con IA"
+      "Consolidación de alertas tiempo real",
+      "Estimación predictiva de terminación",
+      "Recomendaciones inteligentes con IA"
     ]
   },
   {
     icon: TruckIcon,
     title: "SupplySync",
     subtitle: "Control Tower Logística 5PL",
-    description: "Sincroniza la cadena de suministro del cluster mediante compras coordinadas, circularidad y aprovechamiento de excedentes.",
+    description: "Sincroniza la cadena de suministro del cluster mediante compras coordinadas, anticipación de demanda y aprovechamiento de excedentes entre empresas.",
     gradient: "from-accent to-secondary",
     features: [
-      "Lead time -30-50%",
-      "Urgencias -30-40%",
-      "Economía circular activa"
+      "8-15% optimización cadena suministro",
+      "30-50% reducción lead times críticos",
+      "15-25% ahorro por circularidad"
     ]
   },
   {
     icon: Shield,
     title: "HSEQ Gate",
     subtitle: "Digital Passport Product",
-    description: "Gestión digital de permisos de trabajo, procedimientos LOTO y certificaciones con trazabilidad blockchain mediante DPP.",
+    description: "Gestión digital de permisos de trabajo, procedimientos LOTO y certificaciones con trazabilidad completa. Asegura que la seguridad sea una condición de diseño desde la planeación.",
     gradient: "from-secondary to-primary",
     features: [
-      "0 incidentes objetivo",
       "100% permisos trazables",
-      "Validación automática"
+      "Validación automática de certificaciones",
+      "Gestión digital de procedimientos LOTO"
     ]
   },
   {
     icon: Network,
-    title: "PQP Data Trust",
-    subtitle: "Hub del Cluster",
-    description: "Plataforma de colaboración segura con calendario compartido, heatmaps de demanda y programas de economía circular entre empresas.",
+    title: "Data Trust Hub",
+    subtitle: "Hub del Cluster Industrial",
+    description: "Plataforma de colaboración segura con calendario compartido, heatmaps de demanda y programas de economía circular. Visibilidad agregada sin comprometer información competitiva.",
     gradient: "from-secondary to-accent",
     features: [
-      "Coordinación interempresarial",
+      "Coordinación interempresarial segura",
       "ISO 27001 certificado",
-      "Visibilidad agregada cluster"
+      "Heatmaps de demanda agregada"
     ]
   },
   {
     icon: Radar,
     title: "ScopeX",
     subtitle: "Inspección Autónoma",
-    description: "Drones y robots con IA para inspecciones automatizadas que detectan anomalías y actualizan estados de activos en tiempo real.",
+    description: "Drones y robots con IA para inspecciones automatizadas que detectan anomalías, validan condiciones y actualizan estados de activos antes y durante las paradas.",
     gradient: "from-primary to-secondary",
     features: [
-      "Detección temprana problemas",
-      "Alertas críticas seguridad",
-      "Trazabilidad blockchain"
+      "Detección temprana de problemas",
+      "Inspecciones sin riesgo humano",
+      "Actualización automática de estados"
     ]
   },
   {
     icon: Brain,
     title: "Quantycs Academy",
     subtitle: "Gestión de Talento",
-    description: "Identifica brechas de competencias, activa programas de formación y gestiona certificaciones para disponibilidad oportuna de personal.",
+    description: "Identifica brechas de competencias con anticipación, activa programas de formación coordinada y gestiona certificaciones digitales para disponibilidad oportuna de personal especializado.",
     gradient: "from-accent to-primary",
     features: [
-      "Cierre de brechas anticipado",
-      "Pasaportes digitales",
-      "Coordinación formación cluster"
+      "Cierre anticipado de brechas de talento",
+      "Pasaportes digitales de certificación",
+      "Programas de formación coordinada"
     ]
   }
 ];

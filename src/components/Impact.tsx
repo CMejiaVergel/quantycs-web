@@ -1,13 +1,13 @@
-import { Shield, Clock, DollarSign, Leaf } from "lucide-react";
+import { Shield, Clock, Network, Leaf } from "lucide-react";
 
 const impacts = [
   {
     icon: Clock,
-    title: "Tiempo",
+    title: "Anticipación",
     metrics: [
-      { label: "Duración de paradas", value: "-15-25%" },
-      { label: "Lead time críticos", value: "-30-50%" },
-      { label: "Tiempo de reparación", value: "-20%" }
+      { label: "Reducción de inactividad", value: "12-20%" },
+      { label: "Lead time optimizado", value: "30-50%" },
+      { label: "Coordinación anticipada", value: "100%" }
     ],
     gradient: "from-primary to-accent"
   },
@@ -15,29 +15,29 @@ const impacts = [
     icon: Shield,
     title: "Seguridad",
     metrics: [
-      { label: "Incidentes HSEQ", value: "0" },
-      { label: "Permisos trazables", value: "100%" },
-      { label: "Validaciones automáticas", value: "100%" }
+      { label: "Trazabilidad de permisos", value: "100%" },
+      { label: "Certificaciones validadas", value: "100%" },
+      { label: "Reducción de incidentes", value: "+85%" }
     ],
     gradient: "from-secondary to-primary"
   },
   {
-    icon: DollarSign,
-    title: "Costos",
+    icon: Network,
+    title: "Colaboración",
     metrics: [
-      { label: "Servicios", value: "-10-15%" },
-      { label: "Urgencias", value: "-30-40%" },
-      { label: "Inventario", value: "-10-15%" }
+      { label: "Optimización cadena suministro", value: "8-15%" },
+      { label: "Compras coordinadas", value: "10-18%" },
+      { label: "Talento local disponible", value: "+40%" }
     ],
     gradient: "from-accent to-secondary"
   },
   {
     icon: Leaf,
-    title: "Sostenibilidad",
+    title: "Circularidad",
     metrics: [
-      { label: "Eficiencia energética", value: "+15%" },
-      { label: "Reducción residuos", value: "+20%" },
-      { label: "Circularidad", value: "Activa" }
+      { label: "Aprovechamiento de excedentes", value: "+20%" },
+      { label: "Reducción de desperdicios", value: "15-25%" },
+      { label: "Economía circular activa", value: "100%" }
     ],
     gradient: "from-secondary to-accent"
   }
@@ -55,10 +55,10 @@ const Impact = () => {
               Resultados Medibles
             </span>
             <h2 className="font-exo2 text-3xl md:text-5xl font-bold text-foreground mb-6">
-              Impacto <span className="bg-gradient-primary bg-clip-text text-transparent">Cuantificable</span>
+              Valor <span className="bg-gradient-primary bg-clip-text text-transparent">de la Colaboración Inteligente</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Resultados concretos en los primeros 12 meses de implementación
+              Resultados medibles que demuestran el poder de la anticipación y coordinación del cluster industrial
             </p>
           </div>
 
