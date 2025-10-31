@@ -7,7 +7,7 @@ const impacts = [
     metrics: [
       { label: "Duración de paradas", value: "-15-25%" },
       { label: "Lead time críticos", value: "-30-50%" },
-      { label: "Tiempo Medio de Reparación", value: "-20%" }
+      { label: "Tiempo de reparación", value: "-20%" }
     ],
     gradient: "from-primary to-accent"
   },
@@ -25,8 +25,8 @@ const impacts = [
     icon: DollarSign,
     title: "Costos",
     metrics: [
-      { label: "Mano de obra y servicios", value: "-10-15%" },
-      { label: "Urgencias logísticas", value: "-30-40%" },
+      { label: "Servicios", value: "-10-15%" },
+      { label: "Urgencias", value: "-30-40%" },
       { label: "Inventario", value: "-10-15%" }
     ],
     gradient: "from-accent to-secondary"
@@ -37,7 +37,7 @@ const impacts = [
     metrics: [
       { label: "Eficiencia energética", value: "+15%" },
       { label: "Reducción residuos", value: "+20%" },
-      { label: "Simbiosis industrial", value: "Activa" }
+      { label: "Circularidad", value: "Activa" }
     ],
     gradient: "from-secondary to-accent"
   }
@@ -45,27 +45,30 @@ const impacts = [
 
 const Impact = () => {
   return (
-    <section className="py-20 bg-card/30 backdrop-blur-sm relative overflow-hidden">
+    <section className="py-24 bg-card/30 backdrop-blur-sm relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-secondary opacity-5" />
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Impacto <span className="bg-gradient-primary bg-clip-text text-transparent">Medible</span>
+            <span className="inline-block px-4 py-2 bg-secondary/10 border border-secondary/20 rounded-full text-secondary text-sm font-semibold mb-4">
+              Resultados Medibles
+            </span>
+            <h2 className="font-exo2 text-3xl md:text-5xl font-bold text-foreground mb-6">
+              Impacto <span className="bg-gradient-primary bg-clip-text text-transparent">Cuantificable</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Resultados concretos en los primeros 12 meses de implementación
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {impacts.map((impact, index) => {
               const Icon = impact.icon;
               return (
                 <div 
                   key={index}
-                  className="bg-background/70 backdrop-blur-sm p-6 rounded-2xl border border-border/50 hover:border-primary/50 transition-all group"
+                  className="bg-gradient-card border border-border/50 rounded-xl p-6 hover:border-primary/50 transition-all group"
                 >
                   <div className={`w-14 h-14 bg-gradient-to-br ${impact.gradient} rounded-xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform`}>
                     <Icon className="w-7 h-7 text-white" />
@@ -90,25 +93,24 @@ const Impact = () => {
             })}
           </div>
 
-          {/* Value Proposition */}
-          <div className="mt-16 grid md:grid-cols-3 gap-8">
-            <div className="text-center">
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center bg-gradient-card border border-border/50 rounded-xl p-8">
               <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
                 360°
               </div>
-              <p className="text-muted-foreground">Monitoreo completo de operaciones</p>
+              <p className="text-muted-foreground">Monitoreo completo</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-gradient-card border border-border/50 rounded-xl p-8">
               <div className="text-5xl font-bold bg-gradient-secondary bg-clip-text text-transparent mb-2">
                 100%
               </div>
-              <p className="text-muted-foreground">Digitalización Industria 4.0</p>
+              <p className="text-muted-foreground">Digitalización</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-gradient-card border border-border/50 rounded-xl p-8">
               <div className="text-5xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-2">
                 100%
               </div>
-              <p className="text-muted-foreground">Cumplimiento normativo</p>
+              <p className="text-muted-foreground">Cumplimiento</p>
             </div>
           </div>
         </div>
